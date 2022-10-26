@@ -1,0 +1,108 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./FOTOS/FONDO\ HORIZONTAL.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size :100% 100% ;
+   
+}
+header{
+    z-index: 1;
+    position :sticky;
+    top: 0;
+    width: 100%;
+    background-color: #5a3d29da;
+}
+.padding-left{
+    padding-left: 2rem;
+}
+ .nav-bar{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     height: 65px;
+     list-style: none;  
+ }  
+.nav-bar li a{
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    text-decoration: none;
+    color: #f1e2c5;
+ }
+ :hover#boton-navBar{
+    color: grey;
+ }
+ /*-----------------LOGO------------------------------*/
+.container-LOGO{
+    height: 500px;
+    display:flex;
+    justify-content:center;
+
+}
+.lista-LOGO{
+    display:flex;
+    justify-content:space-around;
+    list-style: none; 
+}
+/*-------------------ARTICULO CARTAS----------------------------*/
+/*cada fila en columnas */
+.card{
+    background-color: #5a3d29e9;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    
+}
+
+.card-title{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+}
+.card-text{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+}
+div1 .bi{
+    padding: 6rem;
+    margin-top: 5rem;
+    
+}
+div1 .bi-cart4{
+    font-size: 2rem;
+}
+
+/*todas las cartas dentro de una fila por tipo de producto */
+
+.filas-lista-CARTAS{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+
+.columna-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*estilos lista */
+.filas-lista-CARTAS li {
+    list-style: none;
+}
+
+.texto-producto{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+ 
+/*-----------------------------------------FOOTER-------------------------------------------*/
